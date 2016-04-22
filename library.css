@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+
+/*--更新向けID--*/
+#o-a {
+	padding-bottom: 50px;
+}
+#o-a-text{
+	padding: 100px;
+}
+
+#d-p {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#ecoaiko {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*--更新向けID終わり--*/
+
+
+
+
+
+
+/*--初期設定(全ページ共通)--*/
+body {
+	background-image: url(bg1.jpg);
+	background-repeat: repeat;
+}
+p {
+	margin: 0px;
+	padding: 0px;	
+}
+.pink {
+	color: #FF93D9;
+}
+.padding10px {
+	padding: 10px;
+}
+.font08em {
+	font-size: 0.8em;
+}
+.gray-small {
+	font-size: 0.8em;
+	color: #888;	
+}
+
+.new {
+	color: #ff55aa;
+}
+.noneborder {
+	border-style: none;
+}
+.clear-up {
+	clear:both;
+	text-align: right;
+	margin-right: 8px;
+	font-size: 0.8em;
+}
+
+/*--汎用設定(全ページ共通)--*/
+#right-content {
+	background-color: #FFF;
+	border: 1px solid #b0fefe;
+}
+
+.margin5px {
+	margin: 5px;
+}
+.margin-bottom10px {
+	margin-bottom: 10px;
+}
+.margin-bottom30px {
+	margin-bottom: 30px;
+}
+.margin-bottom15px {
+	margin-bottom: 15px;
+}
+.margin-bottom20px {
+	margin-bottom: 20px;
+}
+.margin-bottom40px {
+	margin-bottom: 40px;
+}
+.margin-bottom70px {
+	margin-bottom: 70px;
+}
+.margin5px {
+	margin: 5px;
+}
+.margin5-10px {
+	margin: 5px 10px;
+}
+.center-margin5px {
+	text-align: center;
+	padding: 5px;
+}
+.none-border {
+	text-decoration: none;
+}
+.border1 {
+	border: 1px solid #000000;
+}
+.border0 {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.image-float-left {
+	margin: 15px;
+	float: left;
+}
+.text-float-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-bottom: 150px;
+	margin-left: 5px;
+}
+
+.text-align-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+	font-size: 0.8em;
+	clear: both;
+}
+.image-float-left-o-a {
+	float: left;
+	margin-bottom: 200px;
+}
+.text-float-right-o-a {
+	float: right;
+	text-align: center;
+	margin: 50px;
+}
+.image-float-left-o-a {
+	float: left;
+	padding-top: 80px;
+}
+.text-float-right-d-p {
+	float: right;
+	text-align: center;
+	margin: 100px 30px 30px 30px;
+}
+
+
+#top-modoru {
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+
+#end {
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+#end-clear {
+	clear: both;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+.non-under {
+	text-decoration: none;
+}
+.illust-center {
+	text-align: center;
+	color: #F80;
+	font-size: 0.8em;
+	margin: 10px;
+}
+.text-black {
+	color: #000;
+	text-decoration: none;
+}
+p .text-black:hover {
+	color: #933;
+	background-color: #FCF;	
+}
+
+.text-black2 {
+	color: #000;
+	text-decoration: none;
+}
+p .text-black2:hover {
+	color: #C63;
+	background-color: #FC6;	
+}
+
+
+
+/*--ページ構造--*/
+#all {
+	width: 980px;
+}
+
+#title-all {
+	float: right;
+	width: 280px;
+}
+#title1 {
+	color: #f09;
+	background-color: #feefda;
+	font-size: 1.1em;
+	padding: 10px;
+	margin: 5px;
+}
+#title2 {
+	background-color: #ffe;
+	font-size: 0.9em;
+	padding: 10px;
+	margin: 5px;
+}
+
+#main {
+	clear: both;
+}
+
+#footer2 {
+	width: 978px;
+	margin: 0px;
+	padding: 1px 0px;
+	color: #eee;
+	font-weight: bold;
+	text-align: right;
+	background-color:#025400;
+}

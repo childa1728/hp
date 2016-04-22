@@ -1,0 +1,160 @@
+﻿@charset "UTF-8";
+
+
+
+
+/*--初期設定(全ページ共通)--*/
+body {
+	background-image: url(bg1.jpg);
+	background-repeat: repeat;
+}
+p {
+	font-size: 0.9em;
+	margin: 0px;
+	padding: 0px;	
+}
+.pink {
+	color: #FF93D9;
+}
+.padding10px {
+	padding: 10px;
+}
+.font08em {
+	font-size: 0.8em;
+}
+.gray-small {
+	font-size: 0.8em;
+	color: #888;	
+}
+
+.new {
+	color: #ff55aa;
+}
+.noneborder {
+	border-style: none;
+}
+
+
+/*--汎用設定(全ページ共通)--*/
+.margin5px {
+	margin: 5px;
+}
+.margin-bottom10px {
+	margin-bottom: 10px;
+}
+.margin-bottom30px {
+	margin-bottom: 30px;
+}
+.margin-bottom15px {
+	margin-bottom: 15px;
+}
+.margin-bottom20px {
+	margin-bottom: 20px;
+}
+.margin-bottom40px {
+	margin-bottom: 40px;
+}
+.margin-bottom70px {
+	margin-bottom: 70px;
+}
+.margin5px {
+	margin: 5px;
+}
+.margin5-10px {
+	margin: 5px 10px;
+}
+.center-margin5px {
+	text-align: center;
+	padding: 5px;
+}
+.none-border {
+	text-decoration: none;
+}
+.border1 {
+	border: 1px solid #000000;
+}
+.border0 {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.image-float-left {
+	margin: 20px;
+	float: left;
+}
+.text-float-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 250px;
+	margin-left: 10px;
+}
+.text-align-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+	font-size: 0.8em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+.non-under {
+	text-decoration: none;
+}
+
+
+
+
+
+/*--ページ構造--*/
+#all {
+	width: 980px;
+}
+
+#left-contnt {
+	width: 220px;
+	float: left;
+}
+
+
+
+#right-all {
+	float: right;
+	width: 758px;
+}
+
+#right-content {
+	background-color: #FFF;
+	border: 1px solid #b0fefe;
+}
+
+#center-margin {
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+}
+
+
+
+
+/*--diary専用--*/
+#left-illust {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 0px;
+	margin-right: 10px;
+	font-size: 0.8em;
+}#konokoro {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #FF55AA;
+}

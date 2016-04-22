@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+
+
+/*--一覧構造--*/
+#nav-image {
+	float: left;
+	margin-bottom: 100px;
+}
+#ps {
+	float: right;
+	width: 680px;
+}
+#intro {
+	float: left;
+}
+#ps1 {
+	clear: left;
+	float: left;
+	width: 680px;
+	height: 240px;
+}
+.hutago {
+	float: left;
+	margin: 10px 20px 40px 30px;
+}
+.nakanaino {
+	float: left;
+	margin: 20px 20px 40px 20px;
+}
+.hzk-pato {
+	float: left;
+	margin: 0px 0px 30px 20px;
+}
+
+.pach-hika {
+	float: left;
+	margin: 10px 0px 30px 15px;
+}
+
+
+#ps2 {
+	clear: left;
+	float: left;
+	width: 680px;
+	height: 240px;
+}
+.anna {
+	float: left;
+	margin: 0px 20px 40px 40px;
+}
+.silwar {
+	float: left;
+	margin: 30px 20px 50px 20px;
+}
+.nerry {
+	float: left;
+	margin: 0px 0px 40px 20px;
+}
+
+
+#oekei-kazari {
+	clear: both;
+	width: 980px;
+}
+
+#oekei {
+	float: left;
+	background-color: #FEEFDA;
+	width: 734px;
+	height: 392px;
+	margin-bottom: 50px;
+}
+#oekei-intro {
+	color: #F85;
+	font-size: 0.6em;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#oekei1 {
+	float: left;
+	width: 734px;
+}
+.drm-hzk1 {
+	float: left;
+	padding: 0px 20px 40px 20px;
+}
+.drm-hzk2 {
+	float: left;
+	margin: 10px 20px 30px 20px;
+}
+.pop-hzk {
+	float: left;
+	margin: 15px 20px 30px 20px;
+}
+.hzk {
+	float: left;
+	margin: 15px 0px 30px 20px;
+}
+#oekei2 {
+	clear: left;
+	width: 734px;
+}
+.k-h-d {
+	float: left;
+	padding: 0px 20px 15px 20px;
+}
+.gakuf {
+	float: left;
+	margin: 0px 20px 15px 20px;
+}
+#kazari {
+	float: right;
+	width: 232px;
+}
+.aniyoko {
+	margin: 0px 20px 5px 40px;
+}
+.susimabi {
+	margin: 0px 20px 15px 40px;
+}
+
+
+
+
+
+/*--初期設定(全ページ共通)--*/
+body {
+	background-image: url(bg1.jpg);
+	background-repeat: repeat;
+}
+p {
+	margin: 0px;
+	padding: 0px;	
+}
+.pink {
+	color: #FF93D9;
+}
+.padding10px {
+	padding: 10px;
+}
+.font08em {
+	font-size: 0.8em;
+}
+.gray-small {
+	font-size: 0.8em;
+	color: #888;	
+}
+
+.new {
+	color: #ff55aa;
+}
+.noneborder {
+	border-style: none;
+}
+
+/*--汎用設定(全ページ共通)--*/
+#right-content {
+	background-color: #FFF;
+	border: 1px solid #b0fefe;
+}
+
+.margin5px {
+	margin: 5px;
+}
+.margin-bottom10px {
+	margin-bottom: 10px;
+}
+.margin-bottom30px {
+	margin-bottom: 30px;
+}
+.margin-bottom15px {
+	margin-bottom: 15px;
+}
+.margin-bottom20px {
+	margin-bottom: 20px;
+}
+.margin-bottom40px {
+	margin-bottom: 40px;
+}
+.margin-bottom70px {
+	margin-bottom: 70px;
+}
+.margin5px {
+	margin: 5px;
+}
+.margin5-10px {
+	margin: 5px 10px;
+}
+.center-margin5px {
+	text-align: center;
+	padding: 5px;
+}
+.none-border {
+	text-decoration: none;
+}
+.border1 {
+	border: 1px solid #000000;
+}
+.border0 {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.image-float-left {
+	margin: 15px;
+	float: left;
+}
+.text-float-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-bottom: 150px;
+	margin-left: 5px;
+}
+.text-align-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+	font-size: 0.8em;
+	clear: both;
+}
+.non-under {
+	text-decoration: none;
+}
+.illust-center {
+	text-align: center;
+	color: #F80;
+	font-size: 0.8em;
+	margin: 10px;
+}
+
+.orange {
+	color: #ECA630;
+	font-size: 0.8em;
+	padding: 10px;
+}
+.green {
+	color: #2C2;
+	font-size: 0.8em;
+	padding: 10px;
+}
+
+
+
+/*--ページ構造--*/
+#all {
+	width: 980px;
+}
+#end {
+	clear: both;
+}

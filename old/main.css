@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+
+/*--更新向けID--*/
+#kaisou {
+	width: 980px;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+/*--更新向けID終わり--*/
+
+
+
+
+
+/*--初期設定(全ページ共通)--*/
+body {
+	background-image: url(bg1.jpg);
+	background-repeat: repeat;
+}
+p {
+	margin: 0px;
+	padding: 0px;	
+}
+.pink {
+	color: #FF93D9;
+}
+.padding10px {
+	padding: 10px;
+}
+.font08em {
+	font-size: 0.8em;
+}
+.gray-small {
+	font-size: 0.8em;
+	color: #888;	
+}
+
+.new {
+	color: #ff55aa;
+}
+.noneborder {
+	border-style: none;
+}
+
+/*--汎用設定(全ページ共通)--*/
+#right-content {
+	background-color: #FFF;
+	border: 1px solid #b0fefe;
+}
+
+.margin5px {
+	margin: 5px;
+}
+.margin-bottom10px {
+	margin-bottom: 10px;
+}
+.margin-bottom30px {
+	margin-bottom: 30px;
+}
+.margin-bottom15px {
+	margin-bottom: 15px;
+}
+.margin-bottom20px {
+	margin-bottom: 20px;
+}
+.margin-bottom40px {
+	margin-bottom: 40px;
+}
+.margin-bottom70px {
+	margin-bottom: 70px;
+}
+.margin5px {
+	margin: 5px;
+}
+.margin5-10px {
+	margin: 5px 10px;
+}
+.center-margin5px {
+	text-align: center;
+	padding: 5px;
+}
+.none-border {
+	text-decoration: none;
+}
+.border1 {
+	border: 1px solid #000000;
+}
+.border0 {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.image-float-left {
+	margin: 15px;
+	float: left;
+}
+.text-float-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 5px;
+	margin-bottom: 150px;
+	margin-left: 5px;
+}
+
+.text-align-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+	font-size: 0.8em;
+	clear: both;
+}
+#top-modoru {
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 150px;
+	margin-left: 0px;
+}
+#end {
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+}
+.non-under {
+	text-decoration: none;
+}
+.illust-center {
+	text-align: center;
+	color: #F80;
+	font-size: 0.8em;
+	margin: 10px;
+}
+.text-black {
+	color: #000;
+	text-decoration: none;
+}
+p .text-black:hover {
+	color: #933;
+	background-color: #FCF;	
+}
+
+.text-black2 {
+	color: #000;
+	text-decoration: none;
+}
+p .text-black2:hover {
+	color: #C63;
+	background-color: #FC6;	
+}
+
+
+
+/*--ページ構造--*/
+#all {
+	width: 980px;
+}
+
+#right-all {
+	float: right;
+	width: 748px;
+}
+#left-contnt {
+	width: 220px;
+	float: left;
+}
+#right-header {
+	float: left;
+	text-align: right;
+	width: 540px;
+}
+#right-nav {
+	float: right;
+	width: auto;
+	text-align: right;
+	font-size: 0.8em;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+#right-blue {
+	background-image: url(bg2.jpg);
+	background-repeat: repeat-x;
+	margin-bottom: 100px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #b0fefe;
+	border-bottom-color: #b0fefe;
+	border-left-color: #b0fefe;
+}
+.clear-under {
+	clear: both;
+	text-align: right;
+}
+.clear-up {
+	clear:both;
+	text-align: right;
+	margin-right: 8px;
+	font-size: 0.8em;
+}
+
+#footer2 {
+	width: 980px;
+	margin: 0px;
+	padding: 1px 0px;
+	color: #eee;
+	font-weight: bold;
+	text-align: right;
+	background-color:#025400;
+}
+
+

@@ -1,0 +1,202 @@
+﻿@charset "UTF-8";
+
+
+/*--メモ--*/
+
+#left-contnt {
+	width: 220px;
+	float: left;
+}
+#left-illust {
+
+}
+
+#mainbox {
+	float: left;
+	background-color: #FFF;
+	width: 580px;
+	border: 1px solid #b0fefe;
+	padding: 10px;
+}
+
+#rightbox {
+	float: right;
+	background-color: #FEC;
+	width: 148px;
+	border: 1px solid #b0fefe;
+	padding: 10px;
+}
+
+
+
+
+/*--初期設定(全ページ共通)--*/
+body {
+	background-image: url(bg1.jpg);
+	background-repeat: repeat;
+}
+p {
+	margin: 0px;
+	padding: 0px;	
+}
+.pink {
+	color: #F5A;
+}
+.padding10px {
+	padding: 10px;
+}
+.font08em {
+	font-size: 0.8em;
+}
+.gray-small {
+	font-size: 0.8em;
+	color: #888;
+}
+
+.new {
+	color: #ff55aa;
+}
+.noneborder {
+	border-style: none;
+}
+
+
+
+/*--汎用設定(全ページ共通)--*/
+.margin5px {
+	margin: 5px;
+}
+.margin-bottom10px {
+	margin-bottom: 10px;
+}
+.margin-bottom30px {
+	margin-bottom: 30px;
+}
+.margin-bottom15px {
+	margin-bottom: 15px;
+}
+.margin-bottom20px {
+	margin-bottom: 20px;
+}
+.margin-bottom40px {
+	margin-bottom: 40px;
+}
+.margin-bottom70px {
+	margin-bottom: 70px;
+}
+.margin5px {
+	margin: 5px;
+}
+.margin5-10px {
+	margin: 5px 10px;
+}
+.center-margin5px {
+	text-align: center;
+	padding: 5px;
+}
+.none-border {
+	text-decoration: none;
+}
+.border1 {
+	border: 1px solid #000000;
+}
+.border0 {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+.image-float-left {
+	margin: 20px;
+	float: left;
+}
+.text-float-right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 10px;
+	margin-bottom: 250px;
+	margin-left: 10px;
+}
+.text-align-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+	font-size: 0.8em;
+	clear: both;
+}
+.non-under {
+	text-decoration: none;
+}
+.pink-size08 {
+	color: #F5A;
+	font-size: 0.8em;
+}
+.pink-size08-margin-bottom15px {
+	color: #F5A;
+	font-size: 0.8em;
+	margin-bottom: 15px;
+}
+.orange-center {
+	text-align: center;
+	color: #F80;
+	margin: 15px;
+}
+.font-orange {
+	color: #F80;
+}
+.font-orange08 {
+	color: #F80;
+	font-size: 0.8em;
+}
+
+
+
+/*--ページ構造--*/
+#all {
+	width: 1040px;
+}
+
+
+#left-contnt {
+	width: 220px;
+	float: left;
+}
+
+
+#right-all {
+	float: right;
+	width: 808px;
+}
+
+#end {
+
+}
+#end-sub {
+
+}
+
+
+/*--link専用--*/
+#left-illust {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 0px;
+	margin-right: 10px;
+	font-size: 0.8em;
+}
+#konokoro {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #F5A;
+}
+
+#top-modoru {
+	margin-bottom: 15px;
+}
